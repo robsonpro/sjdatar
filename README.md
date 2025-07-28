@@ -5,3 +5,10 @@ The package sjdatar contains data collected by the students of Supervised Learni
 Access the vignette for more information.
 
 https://robsonpro.github.io/sjdatar/Vignette_sjdatar
+
+
+## License
+
+This project is licensed under MIT license - see LICENSE for more details.
+
+[![License: MIT]
