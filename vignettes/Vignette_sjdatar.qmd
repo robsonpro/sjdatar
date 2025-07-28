@@ -1,0 +1,92 @@
+---
+title: "Introduction to sjdatar"
+author: "Robson Bruno Dutra Pereira"
+format: html
+editor: visual
+execute:
+  warning: false
+  message: false
+---
+
+![](C:/Docs/OneDrive/UFSJ/Disciplinas/Aprendizado Supervisionado/Dados_AS_UFSJ/slsjdatar.png)
+
+The package `sjdatar` was created to share the datasets collected by the students of Supervised Learning course taught at Federal University of São João del-Rei (UFSJ) in the Industrial Engineering undergraduate. These datasets were used by the students to perform activities about regression and classification modeling. Now they can be used for new students and people interested in supervised learning. New datasets collected by the students will be available in new versions of the package.
+
+## Installing and loading the package
+
+```{r}
+# Certify that devtools is installed
+# if (!require("devtools")) install.packages("devtools")
+
+# Install th package from github
+# devtools::install_github("robsonpro/sjdatar")
+```
+
+```{r}
+library(sjdatar)
+```
+
+## Dataset `aluguel2025sjdr`
+
+Dataset containing information on property rentals in São João del Rei for the year 2025, including prices, property features, and location.
+
+```{r}
+data(aluguel2025sjdr)
+str(aluguel2025sjdr)
+```
+
+## Dataset `apartamentos2024mg`
+
+Dataset containing information about apartments available for sale in Minas Gerais, for the year 2024, including sale prices, property characteristics, and location.
+
+```{r}
+data(apartamentos2024mg)
+str(apartamentos2024mg)
+```
+
+## Dataset `carrosusados2025webmotors`
+
+Dataset containing information about used cars collected from the Webmotors platform in 2025, including model, manufacturer, prices, vehicle characteristics, year, and mileage.
+
+```{r}
+data(carrosusados2025webmotors)
+str(carrosusados2025webmotors)
+```
+
+## Dataset `celularesnovos2025`
+
+Dataset containing information about new cell phones available in 2025,
+including price, model, and technical specifications.
+
+```{r}
+data(celularesnovos2025)
+str(celularesnovos2025)
+```
+
+## Dataset `celularesusados`
+
+Dataset containing information about used cell phones, including price,
+technical specifications, condition, and device features.
+
+```{r}
+data(celularesusados)
+str(celularesusados)
+```
+
+## Dataset `feijoes`
+
+Dataset with measurements on distinct beans found in brazilian market.
+
+```{r}
+data(feijoes)
+str(feijoes)
+```
+
+## Dataset `folhasfrutas`
+
+Dataset on measurements obtained through image analysis of fruit tree leaves.
+
+```{r}
+data(folhasfrutas)
+str(folhasfrutas)
+```
