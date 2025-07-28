@@ -1,0 +1,17 @@
+Package: sjdatar
+Title: DATA OF SUPERVISED LEARNING COURSE TAUGHT AT UFSJ
+Version: 1.0
+Authors@R: 
+    person("Robson Bruno Dutra Pereira", email="robsondutra@ufsj.edu.br", role = c("aut", "cre"))
+Description: The package sjdatar contains data collected by the students of Supervised Learning course taught at Federal University of São João del-Rei (UFSJ) in the Industrial Engineering undergraduate.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
