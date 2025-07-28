@@ -11,4 +11,4 @@ https://robsonpro.github.io/sjdatar/Vignette_sjdatar
 
 This project is licensed under MIT license - see LICENSE for more details.
 
-[![License: MIT]
+[![License: MIT](License-MIT-yellow.svg)
