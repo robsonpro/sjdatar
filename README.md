@@ -4,4 +4,4 @@ The package sjdatar contains data collected by the students of Supervised Learni
 
 Access the vignette for more information.
 
-https://robsonpro.github.io/sjdatar/
+https://robsonpro.github.io/sjdatar/vignettes/Vignette_sjdatar
