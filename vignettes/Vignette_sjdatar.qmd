@@ -8,7 +8,7 @@ execute:
   message: false
 ---
 
-![](C:/Docs/OneDrive/UFSJ/Disciplinas/Aprendizado Supervisionado/Dados_AS_UFSJ/slsjdatar.png)
+![](slsjdatar)
 
 The package `sjdatar` was created to share the datasets collected by the students of Supervised Learning course taught at Federal University of São João del-Rei (UFSJ) in the Industrial Engineering undergraduate. These datasets were used by the students to perform activities about regression and classification modeling. Now they can be used for new students and people interested in supervised learning. New datasets collected by the students will be available in new versions of the package.
 
@@ -55,8 +55,7 @@ str(carrosusados2025webmotors)
 
 ## Dataset `celularesnovos2025`
 
-Dataset containing information about new cell phones available in 2025,
-including price, model, and technical specifications.
+Dataset containing information about new cell phones available in 2025, including price, model, and technical specifications.
 
 ```{r}
 data(celularesnovos2025)
@@ -65,8 +64,7 @@ str(celularesnovos2025)
 
 ## Dataset `celularesusados`
 
-Dataset containing information about used cell phones, including price,
-technical specifications, condition, and device features.
+Dataset containing information about used cell phones, including price, technical specifications, condition, and device features.
 
 ```{r}
 data(celularesusados)
