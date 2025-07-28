@@ -1,6 +1,6 @@
 ## R package sjdatar
 
-[![logo](slsjdatar.png)
+![logo](slsjdatar.png)
 
 The package sjdatar contains data collected by the students of Supervised Learning course taught at Federal University of São João del-Rei (UFSJ) in the Industrial Engineering undergraduate.
 
