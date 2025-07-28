@@ -4,6 +4,10 @@
 
 The package sjdatar contains data collected by students of the Supervised Learning course taught at the Federal University of São João del-Rei (UFSJ) in the Industrial Engineering undergraduate.
 
+To install the package execute:
+
+`devtools::install_github("robsonpro/sjdatar")`
+
 Access the vignette for more information.
 
 https://robsonpro.github.io/sjdatar/Vignette_sjdatar
