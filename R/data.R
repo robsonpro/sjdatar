@@ -177,3 +177,30 @@
 #' table(feijoes$feijao)
 "feijoes"
 
+#' Simulated binary classification dataset
+#'
+#' A simulated dataset for binary classification with two continuous predictors
+#' drawn from a bivariate normal distribution. The binary response variable is
+#' defined based on the Mahalanobis distance from the origin, with added noise,
+#' generating two overlapping classes suitable for classification modeling tasks.
+#'
+#' @format A data frame with 1000 observations on 3 variables.
+#' \describe{
+#'   \item{x1}{First predictor. Continuous variable sampled from a bivariate
+#'   normal distribution with mean 0 and variance 1.}
+#'   \item{x2}{Second predictor. Continuous variable sampled from a bivariate
+#'   normal distribution with mean 0 and variance 1, with covariance 0.2
+#'   with \code{x1}.}
+#'   \item{y}{Binary response variable (factor). Class 0 or 1, defined by
+#'   whether the Mahalanobis distance (with added Gaussian noise) exceeds
+#'   a threshold of 1.7.}
+#' }
+#' @source Simulated data generated with \code{set.seed(14)} using the
+#'   \code{mvtnorm} package.
+#' @examples
+#' data(simdatac1)
+#' str(simdatac1)
+#' table(simdatac1$y)
+#' plot(simdatac1$x1, simdatac1$x2, col = simdatac1$y,
+#'      xlab = "x1", ylab = "x2", main = "simdatac1")
+"simdatac1"
