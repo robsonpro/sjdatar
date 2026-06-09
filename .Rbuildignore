@@ -3,3 +3,10 @@
 ^doc$
 ^Meta$
 ^LICENSE\.md$
+^.*\.html$
+^.*_files/
+^.*\.cache/
+^inst/doc/.*\.html$
+^Vignette_sjdatar\.qmd$
+^slsjdatar\.png$
+

@@ -1,9 +1,9 @@
 Package: sjdatar
-Title: DATA OF SUPERVISED LEARNING COURSE TAUGHT AT UFSJ
+Title: DATA of SUPERVISED LEARNING COURSE TAUGHT at UFSJ
 Version: 1.0
 Authors@R: 
     person("Robson Bruno Dutra Pereira", email="robsondutra@ufsj.edu.br", role = c("aut", "cre"))
-Description: The package sjdatar contains data collected by the students of Supervised Learning course taught at Federal University of São João del-Rei (UFSJ) in the Industrial Engineering undergraduate.
+Description: Data collected by the students of Supervised Learning course taught at Federal University of Sao Joao del-Rei in the Industrial Engineering undergraduate.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
