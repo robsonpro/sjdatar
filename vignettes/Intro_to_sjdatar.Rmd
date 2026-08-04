@@ -40,6 +40,24 @@ data(apartamentos2024mg)
 str(apartamentos2024mg)
 ```
 
+## Dataset `biscoitos`
+
+Dataset containing information about cookies and crackers available in the Brazilian market, including product characteristics, nutritional claims, and brand information.
+
+```{r}
+data(biscoitos)
+str(biscoitos)
+```
+
+## Dataset `carros_eletricos`
+
+Dataset containing information about electric cars available in the market, including battery capacity, efficiency, price, range, top speed, and performance.
+
+```{r}
+data(carros_eletricos)
+str(carros_eletricos)
+```
+
 ## Dataset `carrosusados2025webmotors`
 
 Dataset containing information about used cars collected from the Webmotors platform in 2025, including model, manufacturer, prices, vehicle characteristics, year, and mileage.
@@ -51,8 +69,7 @@ str(carrosusados2025webmotors)
 
 ## Dataset `celularesnovos2025`
 
-Dataset containing information about new cell phones available in 2025,
-including price, model, and technical specifications.
+Dataset containing information about new cell phones available in 2025, including price, model, and technical specifications.
 
 ```{r}
 data(celularesnovos2025)
@@ -61,17 +78,25 @@ str(celularesnovos2025)
 
 ## Dataset `celularesusados`
 
-Dataset containing information about used cell phones, including price,
-technical specifications, condition, and device features.
+Dataset containing information about used cell phones, including price, technical specifications, condition, and device features.
 
 ```{r}
 data(celularesusados)
 str(celularesusados)
 ```
 
+## Dataset `computadores`
+
+Dataset containing information about laptop computers available in the Brazilian market, including brand, processor, memory, storage, and price.
+
+```{r}
+data(computadores)
+str(computadores)
+```
+
 ## Dataset `feijoes`
 
-Dataset with measurements on distinct beans found in brazilian market.
+Dataset with measurements on distinct beans found in the Brazilian market.
 
 ```{r}
 data(feijoes)
@@ -87,3 +112,56 @@ data(folhasfrutas)
 str(folhasfrutas)
 ```
 
+## Dataset `motos_usadas`
+
+Dataset containing information about used motorcycles available in the Brazilian market, including brand, model, year, mileage, fuel type, engine displacement, state, and price.
+
+```{r}
+data(motos_usadas)
+str(motos_usadas)
+```
+
+## Dataset `motos_usadas2`
+
+Dataset containing information about used motorcycles available in the Brazilian market, including brand, model, year, mileage, engine displacement, fuel type, transmission, color, and price.
+
+```{r}
+data(motos_usadas2)
+str(motos_usadas2)
+```
+
+## Dataset `simdatac1`
+
+Simulated dataset for binary classification with two continuous predictors drawn from a bivariate normal distribution. The binary response variable is defined based on the Mahalanobis distance from the origin, with added noise, generating two overlapping classes suitable for classification modeling tasks.
+
+```{r}
+data(simdatac1)
+str(simdatac1)
+```
+
+## Dataset `simdatac2`
+
+Simulated dataset for binary classification with two continuous predictors drawn from a bivariate normal distribution. The binary response variable is defined based on a quadratic function of the predictors, with added noise, generating two classes separated by a nonlinear boundary.
+
+```{r}
+data(simdatac2)
+str(simdatac2)
+```
+
+## Dataset `soja`
+
+Dataset containing morphological measurements obtained through image analysis of soybean seeds from different cultivars, for classification purposes.
+
+```{r}
+data(soja)
+str(soja)
+```
+
+## Dataset `temperos`
+
+Dataset containing morphological measurements obtained through image analysis of spice and herb leaves from different species, for classification purposes.
+
+```{r}
+data(temperos)
+str(temperos)
+```
