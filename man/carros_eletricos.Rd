@@ -7,10 +7,10 @@
 \format{
 A data frame with 269 observations on 7 variables.
 \describe{
-\item{Tamanho.bat}{battery size in kWh}
+\item{Capacidadebateria}{battery capacity in kWh}
 \item{Carro}{car model}
 \item{Eficiencia}{energy efficiency in Wh/km}
-\item{Preco}{car price}
+\item{Preco}{car price in BRL}
 \item{Autonomia}{range in km}
 \item{Velocidade.max}{top speed in km/h}
 \item{Desempenho}{acceleration performance in seconds (0-100 km/h)}
@@ -25,11 +25,11 @@ carros_eletricos
 }
 \description{
 Dataset containing information about electric cars available in the market,
-including battery size, efficiency, price, range, top speed, and performance.
+including battery capacity, efficiency, price, range, top speed, and performance.
 }
 \examples{
 data(carros_eletricos)
 head(carros_eletricos)
-plot(carros_eletricos$Autonomia, carros_eletricos$Tamanho.bat)
+plot(carros_eletricos$Autonomia, carros_eletricos$Capacidadebateria)
 }
 \keyword{datasets}
