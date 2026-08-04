@@ -15,11 +15,12 @@ The package `sjdatar` was created to share the datasets collected by the student
 ## Installing and loading the package
 
 ```{r}
+#| eval: false
 # Certify that devtools is installed
-# if (!require("devtools")) install.packages("devtools")
+if (!require("devtools")) install.packages("devtools")
 
-# Install th package from github
-# devtools::install_github("robsonpro/sjdatar")
+# Install the package from github
+devtools::install_github("robsonpro/sjdatar")
 ```
 
 ```{r}
@@ -42,6 +43,24 @@ Dataset containing information about apartments available for sale in Minas Gera
 ```{r}
 data(apartamentos2024mg)
 str(apartamentos2024mg)
+```
+
+## Dataset `biscoitos`
+
+Dataset containing information about cookies and crackers available in the Brazilian market, including product characteristics, nutritional claims, and brand information.
+
+```{r}
+data(biscoitos)
+str(biscoitos)
+```
+
+## Dataset `carros_eletricos`
+
+Dataset containing information about electric cars available in the market, including battery size, efficiency, price, range, top speed, and performance.
+
+```{r}
+data(carros_eletricos)
+str(carros_eletricos)
 ```
 
 ## Dataset `carrosusados2025webmotors`
@@ -71,9 +90,18 @@ data(celularesusados)
 str(celularesusados)
 ```
 
+## Dataset `computadores`
+
+Dataset containing information about laptop computers available in the Brazilian market, including brand, processor, memory, storage, and price.
+
+```{r}
+data(computadores)
+str(computadores)
+```
+
 ## Dataset `feijoes`
 
-Dataset with measurements on distinct beans found in brazilian market.
+Dataset with measurements on distinct beans found in the Brazilian market.
 
 ```{r}
 data(feijoes)
@@ -87,4 +115,58 @@ Dataset on measurements obtained through image analysis of fruit tree leaves.
 ```{r}
 data(folhasfrutas)
 str(folhasfrutas)
+```
+
+## Dataset `motos_usadas`
+
+Dataset containing information about used motorcycles available in the Brazilian market, including brand, model, year, mileage, fuel type, engine displacement, state, and price.
+
+```{r}
+data(motos_usadas)
+str(motos_usadas)
+```
+
+## Dataset `motos_usadas2`
+
+Dataset containing information about used motorcycles available in the Brazilian market, including brand, model, year, mileage, engine displacement, fuel type, transmission, color, and price.
+
+```{r}
+data(motos_usadas2)
+str(motos_usadas2)
+```
+
+## Dataset `simdatac1`
+
+Simulated dataset for binary classification with two continuous predictors drawn from a bivariate normal distribution. The binary response variable is defined based on the Mahalanobis distance from the origin, with added noise, generating two overlapping classes suitable for classification modeling tasks.
+
+```{r}
+data(simdatac1)
+str(simdatac1)
+```
+
+## Dataset `simdatac2`
+
+Simulated dataset for binary classification with two continuous predictors drawn from a bivariate normal distribution. The binary response variable is defined based on a quadratic function of the predictors, with added noise, generating two classes separated by a nonlinear boundary.
+
+```{r}
+data(simdatac2)
+str(simdatac2)
+```
+
+## Dataset `soja`
+
+Dataset containing morphological measurements obtained through image analysis of soybean seeds from different cultivars, for classification purposes.
+
+```{r}
+data(soja)
+str(soja)
+```
+
+## Dataset `temperos`
+
+Dataset containing morphological measurements obtained through image analysis of spice and herb leaves from different species, for classification purposes.
+
+```{r}
+data(temperos)
+str(temperos)
 ```
